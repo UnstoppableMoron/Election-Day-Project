@@ -4,33 +4,62 @@
 }
 
 header{
-    background-color:;
-}
-
-main{
-    background-image: url("https://images.unsplash.com/photo-1487730202306-21b1a371bab0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YW1lcmljYW4lMjBmbGFnfGVufDB8fDB8fHww");
+    align-items: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/255px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png);
     background-size: cover;
+    background-position: center;
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    top:0px;
 }
 
-.two p{
-    color:whitesmoke;
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav a{
+    padding: 15px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    text-decoration: none;
 }
 
 h1{
-    color:blue;
+    color:rgb(0, 195, 255);
+    text-align: center;
 }
 
 h2{
-    color:whitesmoke;
+    color:black;
 }
 
 .one{
+    background-color: rgb(0 0 255 / 35%);
+    max-width: 800px;
+    border-width: 10px;
+    text-align: center;
+    margin: auto;
 }
 
 .two{
-    background-color:blue;
+    background-color: rgb(0 0 255 / 35%);
     max-width: 800px;
     border-width: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.three{
+    background-color: rgb(0 0 255 / 35%);
+    max-width: 800px;
+    border-width: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
 }
 
 footer{
