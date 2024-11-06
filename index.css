@@ -31,6 +31,9 @@ header{
     list-style: none;
 }
 
+.facts{
+    list-style: none;
+}
 .nav a{
     padding: 15px 15px;
     text-transform: uppercase;
@@ -54,9 +57,6 @@ h2{
     height: 100px;
 }
 
-.one{
-}
-
 .one, .two, .three, .four, .five{
     background-color: #032D61ff;
     max-width: 800px;
@@ -65,13 +65,13 @@ h2{
     color: blanchedalmond;
 }
 
-.one, .four, .five{
+.one, .five{
     margin: auto;
 }
 
-.two, .three{
-    margin-top: 100px;
-    margin-left: 22%;
+.two, .three, .four{
+
+    margin-left: 23%;
 }
 
 footer{
@@ -82,7 +82,7 @@ footer{
     text-align: center;
 }
 
-#flag, #poll, #vote{
+#flag, #poll, #vote, #polling, #voting{
     width: 50%;
     margin: auto;
     display:block;
