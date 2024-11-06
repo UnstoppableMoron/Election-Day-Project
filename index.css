@@ -1,3 +1,13 @@
+/* CSS COLOR HEXES 
+--amaranth-purple: #B41240ff;
+--yale-blue: #0E3668ff;
+--yinmn-blue: #395A82ff;
+--berkeley-blue: #032D61ff;
+--mimi-pink: #EED8E0ff; */
+
+html{
+    background-color: rgb(243, 198, 215);
+}
 .container{
     display:flex;
     flex-direction: column;
@@ -10,8 +20,10 @@ header{
     background-position: center;
     position: sticky;
     width: 100%;
-    text-align: center;
     top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav{
@@ -25,41 +37,41 @@ header{
     text-align: center;
     display: block;
     text-decoration: none;
+    color: blanchedalmond;
 }
 
 h1{
-    color:rgb(0, 195, 255);
+    color: blanchedalmond;
     text-align: center;
 }
 
 h2{
-    color:black;
+    color:red;
+}
+
+.hidden{
+    visibility: hidden;
+    height: 100px;
 }
 
 .one{
-    background-color: rgb(0 0 255 / 35%);
+}
+
+.one, .two, .three, .four, .five{
+    background-color: #032D61ff;
     max-width: 800px;
     border-width: 10px;
     text-align: center;
+    color: blanchedalmond;
+}
+
+.one, .four, .five{
     margin: auto;
 }
 
-.two{
-    background-color: rgb(0 0 255 / 35%);
-    max-width: 800px;
-    border-width: 10px;
-    text-align: center;
-    margin: auto;
+.two, .three{
     margin-top: 100px;
-}
-
-.three{
-    background-color: rgb(0 0 255 / 35%);
-    max-width: 800px;
-    border-width: 10px;
-    text-align: center;
-    margin: auto;
-    margin-top: 100px;
+    margin-left: 22%;
 }
 
 footer{
@@ -68,4 +80,10 @@ footer{
 
 .copy{
     text-align: center;
+}
+
+#flag, #poll, #vote{
+    width: 50%;
+    margin: auto;
+    display:block;
 }
