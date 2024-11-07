@@ -82,8 +82,14 @@ footer{
     text-align: center;
 }
 
-#flag, #poll, #vote, #polling, #voting{
+#flag, #voting{
     width: 50%;
     margin: auto;
+    display:block;
+}
+
+#poll, #vote, #polling{
+    width: 50%;
+    margin-left: 26%;
     display:block;
 }
